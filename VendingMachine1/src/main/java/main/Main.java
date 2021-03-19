@@ -53,7 +53,7 @@ public class Main extends ReadDataFromJSONFile {
 				e.printStackTrace();
 			}
 		} else {
-			System.out.println("Then please enter new.json");
+			System.out.println("Then please enter input.json");
 			Map<String, JSONObject> vendingItems = getHashmapFromJSONFile();
 			System.out.println("Please make a selection using the key. ");
 
